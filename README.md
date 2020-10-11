@@ -1,5 +1,5 @@
 # fblaProject
-Website for a new photographer 
+Website for  
 # Clone this repository 
 https://github.com/1huh/fblaProject.git
 

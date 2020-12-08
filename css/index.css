@@ -1,8 +1,8 @@
 body {
     font-size: 15 px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #e5e5e5;
-
+    background-color: (240, 234, 214);
+    position: sticky;
 }
 
 .header { 
@@ -10,6 +10,7 @@ body {
     background-color:#232324; 
     width: 100%;
     position:sticky;
+
     
     
 }
@@ -21,7 +22,7 @@ body {
 
 }
 
-ul {
+#hul {
     list-style-type: none;
     margin:0;
     padding: 0;
@@ -30,7 +31,7 @@ ul {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    position: left;
+    position:sticky;
     
 }
 
@@ -48,4 +49,57 @@ li a {
 }
 li a:hover{
     color:#4d4e52;
+}
+
+.p-content{ 
+    background-color:(240, 234, 214);
+}
+
+#smedia-ttext { 
+    text-align: center;
+}
+
+#iIcon { 
+    width: 7%; 
+    height: auto;
+}
+#tIcon { 
+    width: 7%; 
+    height: auto;
+}
+#fIcon {
+    width: 9%;
+    height: auto;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .flex-item {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+}
+
+  #sPreview { 
+      width: 400px;
+      height: auto;
+  }
+#introsm { 
+    text-align: center;
 }
